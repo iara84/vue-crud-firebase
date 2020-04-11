@@ -1,0 +1,7 @@
+import Edit from './views/Edit.vue'
+
+    {
+      path: '/:id',
+      name: 'edit',
+      component: Edit
+    }

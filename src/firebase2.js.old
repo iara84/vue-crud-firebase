@@ -1,0 +1,14 @@
+import firebase from 'firebase'
+    
+const config = {    
+    apiKey: "AIzaSyCg9nIPxlk3yaM1jDcGyPaWT_IIyzBmUVI",
+    authDomain: "productos-1ecd7.firebaseapp.com",
+    databaseURL: "https://productos-1ecd7.firebaseio.com",
+    projectId: "productos-1ecd7",
+    storageBucket: "productos-1ecd7.appspot.com",
+    messagingSenderId: "829108980212"    
+};
+
+firebase.initializeApp(config);
+ 
+export const db = firebase.database();
